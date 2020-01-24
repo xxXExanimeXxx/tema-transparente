@@ -162,3 +162,95 @@
 .hasMore-3e72_v button {
     color: #375ca7;
 }
+
+
+/* cards */
+
+/* playing a game card */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .body-3ND3kc {
+    background-color: rgba(2, 22, 45, 0.9);
+}
+.theme-dark .quickMessage-1yeL4E {
+    background-color: rgba(6, 31, 58, 0.9);
+    border-color: #375ca7;
+}
+.headerPlaying-j0WQBV, .da-topSectionPlaying {
+    background: rgba(49, 111, 145, 0.9);
+    border: 1px solid #0af;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* button for header playing on add friend */
+.lookInverted-2D7oAl.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: rgba(49, 110, 145, 0.9);
+    border: 1px solid rgba(52, 141, 190, 0.9);
+    color: #ffffff;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: rgba(57, 128, 169, 0.9);
+}
+
+.userPopout-3XzG_A {
+    border: 1px solid #375ca7;
+}
+
+/* normal card */
+.theme-dark .da-headerNormal, .da-root .da-topSectionNormal {
+    background-color: rgba(0, 18, 39, 0.9);
+}
+
+
+/* spotify card */
+.da-headerSpotify, .da-topSectionSpotify {
+	background: rgba(32, 138, 69, 0.9);
+    border: 1px solid rgba(42, 255, 15, 0.9);
+}
+
+/* on call area */
+.video-1FfuMD {
+    background-color: rgba(2, 22, 45, 0.9);
+    border: 1px solid #375ca7;
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background-color: #08294d;
+    border-color: #375ca7;
+}
+
+/* fixing idle and other states *//*
+.idle-3DEnRT, .status-3fQvEa {
+	left: 0px;
+}*/
+
+/* unread messages */
+.wrapper-232cHJ {
+    background-color: #33579e;
+    box-shadow: 0px 0px 10px #33579e;
+}
+
+/* settings my account background */
+.theme-dark .da-cardPrimary, .theme-dark .da-cardPrimaryEditable {
+	background: rgba(8, 26, 62, 0.3);
+	border-color: rgba(55, 92, 167, 0.4);
+}
+
+/* settings button normal and hover of categories */
+.da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+    background-color: #08294f;
+   	border: 1px solid #375ca7;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover, .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover {
+	background-color: rgba(25, 65, 112, 0.63);
+   	border: 1px solid #375ca7;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+	background-color: rgba(25, 65, 112, 0.63);
+   	border: 1px solid #375ca7;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	height: 40px;
+    width: 0px;
+}
