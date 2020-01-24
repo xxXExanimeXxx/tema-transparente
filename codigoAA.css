@@ -381,7 +381,16 @@
     background-color: rgba(240, 71, 71, 0.20);
 }
 
---------------------------------
+/* settings profile picture area */
+.userSettingsAccount-2eMFVR .avatar-uploader-inner, .avatar-xxlarge {
+    border: 1px solid #375ca7;
+    border-radius: 50px;
+    border-bottom-left-radius: 1px;
+    box-shadow: 0px 0px 10px #375ca7;
+}
+.theme-dark .avatar-uploader-indicator {
+    background-color: rgb(28, 35, 41);
+}
 
 /* chat pfp area border and box shadows */
 .large-3ChYtB {
