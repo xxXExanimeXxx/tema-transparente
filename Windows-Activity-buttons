@@ -1,0 +1,164 @@
+/* changes position of top bar icons from right to left */
+.iconMargin-2YXk4F, .da-app .search .search-bar, .divider-2PMBlV, .theme-dark .searchPopout-1vUlP3 {
+	position: relative;
+    right: 120px;
+}
+/* fixes an issue because of changing position of search box */
+.search {
+    z-index: 0;
+}
+/* windows control buttons changing position to bottom to the top bar */
+.winButton-iRh8-Z {
+	position: relative;
+    bottom: 530px;
+	right: 13px;
+	top: 15px;
+	width: 2%;
+}
+
+/* hiding most of the windows control, not completely so it doesnt lose the dragging functionality */
+.typeWindows-1za-n7 {
+	height: 4px!important;
+    margin-top: 0px!important;
+}
+
+/* Fixes some issues with reposition */
+.theme-dark .container-3ayLPN {
+    position: relative;
+    right: 120px;
+}
+
+/* removes watermark */
+.wordmark-2iDDfm {
+	display:none;
+}
+
+/* position of some stuff */
+.browseSearch-e9jF-f, .libraryFilter-31ZUa2 {
+	margin-right: 130px;
+}
+/* a small fix for channel info */
+.da-topic {
+	max-width: 80%!important;
+}
+
+/* fix search area */
+.search-l1Wz-Q {
+	position: relative;
+    right: 120px;
+}
+.search-l1Wz-Q {
+    margin: 0 4px 0 8px;
+    position: relative;
+    right: 120px;
+}
+
+.toolbar-1t6TWx {
+	margin-right: 100px;
+}
+/* invite group */
+.theme-dark .wrapper-35wsBm {
+    background: rgba(2, 22, 45, 0.8);
+    border-color: rgb(27, 52, 95);
+}
+
+
+/* embed urls */
+.theme-dark .embedInner-1-fpTo {
+    background-color: rgba(19, 82, 93, 0.3);
+    border-color: rgb(28, 101, 144);
+}
+.theme-dark .embedPill-1Zntps {
+    background-color: rgb(28, 101, 144);
+}
+
+/* emoji menu */
+
+.emojiPicker-3m1S-j, #bda-qem-twitch-container, #bda-qem-favourite-container {
+	background-color: rgba(2, 22, 45, 0.9);
+}
+/* sticky part of emoji area */
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background: rgb(9, 44, 83);
+    border: 1px solid #375ca7;
+    border-radius: 5px;
+}
+.diversitySelector-tmmMv0 .popout-2nUePc {
+    background: rgba(2, 22, 45, 0.9);
+    border: 1px solid #375ca7;
+}
+.search-bar.search-bar-light {
+    background-color: rgba(9, 44, 83, 0.9);
+    border: 1px solid #375ca7;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgb(8, 34, 63);
+}
+#bda-qem button:hover {
+    background: rgb(5, 31, 63);
+}
+#bda-qem {
+	background-color: rgba(2, 22, 45, 0.9);
+}
+#bda-qem button {
+    border-left: 1px solid #375ca7;
+    border-top: 1px solid #375ca7;
+}
+#bda-qem-twitch-container, #bda-qem-favourite-container, .emoji-picker, .emojiPicker-3m1S-j {
+	 border: 1px solid #375ca7;
+}
+.emoji-picker, .emojiPicker-3m1S-j {
+	border-top: none;
+}
+#bda-qem button {
+    border-left: 1px solid #375ca7;
+    box-shadow: #375ca7 1px 0 0 0;
+}
+#bda-qem button.active {
+    background-color: #08294f;
+    color: #fff;
+}
+#bda-qem button {
+    color: #99aab5;
+    border-left: 1px solid #375ca7;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: #092c53;
+    border-color:; #375ca7;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+    border-bottom-color: #375ca7;
+}
+
+/* custom stuff for emoji page */
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    top: 10px;
+}
+.emojiPicker-3m1S-j .category-2U57w6 {
+    position: relative;
+    top: -1px;
+    height: 29px;
+}
+
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+    position: relative;
+    top: 13px;
+}
+/* end of custom stuff for this area */
+
+/* divider in chat */
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+    border-color: #375ca7;
+}
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    color: rgb(55, 92, 167);
+}
+
+.theme-dark .hasMore-3e72_v button {
+    background: rgba(2, 22, 45, 0.9);
+    border: 1px solid #375ca7;
+}
+.hasMore-3e72_v button {
+    color: #375ca7;
+}
